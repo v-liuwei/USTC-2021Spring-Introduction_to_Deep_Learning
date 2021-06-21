@@ -1,0 +1,29 @@
+default parameters are:
+{'block_sizes': [(64, 64, 1),
+                 (64, 128, 2),
+                 (128, 256, 2),
+                 (256, 512, 2),
+                 (512, 1024, 2)],
+ 'dropout': (0.2, 0.5),
+ 'epochs': 40,
+ 'lr_decay': 0.1,
+ 'lr_init': 0.001,
+ 'lr_min': 1e-05,
+ 'lr_min_delta': 0.0,
+ 'lr_patience': 1,
+ 'norm': True,
+ 'res': True,
+ 'restore_best_weights': True,
+ 'top': [1, 5, 10],
+ 'val_min_delta': 0.0,
+ 'val_patience': 3}
+>>> set `dropout` to (0.0, 0.0)
+val_loss = 2.6277607641402323, val_acc = [0.4119, 0.675, 0.7767]
+>>> set `dropout` to (0.1, 0.3)
+val_loss = 2.534848990713715, val_acc = [0.4245, 0.691, 0.7916]
+>>> set `dropout` to (0.3, 0.7)
+val_loss = 2.4117816208274503, val_acc = [0.4233, 0.6981, 0.7954]
+>>> set `lr_decay` to 0.5
+val_loss = 2.4610023521314, val_acc = [0.4162, 0.6913, 0.7891]
+>>> set `lr_decay` to 0.99
+val_loss = 2.5230503021531803, val_acc = [0.4066, 0.6773, 0.7828]

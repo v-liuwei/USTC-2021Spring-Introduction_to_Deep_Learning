@@ -1,0 +1,20 @@
+certifi==2020.12.5
+cycler==0.10.0
+freeze==3.0
+kiwisolver==1.3.1
+matplotlib==3.4.0
+mkl-fft==1.3.0
+mkl-random==1.1.1
+mkl-service==2.3.0
+numpy @ file:///C:/ci/numpy_and_numpy_base_1603466732592/work
+olefile==0.46
+Pillow @ file:///C:/ci/pillow_1615224342392/work
+pyparsing==2.4.7
+python-dateutil==2.8.1
+six @ file:///C:/ci/six_1605187374963/work
+torch==1.8.1
+torchaudio==0.8.1
+torchvision==0.9.1
+tqdm==4.59.0
+typing-extensions @ file:///home/ktietz/src/ci_mi/typing_extensions_1612808209620/work
+wincertstore==0.2

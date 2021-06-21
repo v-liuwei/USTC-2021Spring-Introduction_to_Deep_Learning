@@ -1,0 +1,5 @@
+numpy==1.19.2
+spacy==3.0.6
+torch==1.8.1
+torchtext==0.9.1
+tqdm==4.56.0
