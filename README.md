@@ -1,4 +1,4 @@
-# USTC_2021_Spring_Deep_Learning_Experiments
+# USTC_2021_Spring_Deep_Learning_labs
 
 USTC-2021春季学期深度学习导论课程实验：
 
